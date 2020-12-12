@@ -1,0 +1,41 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 10px;
+  grid-template-areas:  
+  "search ."
+  "activity vehicles";
+
+  padding: 20px 30px;
+  width: 100%;
+  height: 100%;
+  background-color:#f0f1f0  ;
+
+  grid-area: content;
+}
+
+.content__search {
+  grid-area: search;
+
+  width: 80%;
+  margin-bottom: 20px;
+
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content__activity {
+  grid-area: activity;
+
+  background-color: white;
+  border-radius: 5px;
+}
+
+.content__vehicles {
+  grid-area: vehicles;
+  
+  background-color: white;
+  border-radius: 5px;
+}

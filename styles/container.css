@@ -1,0 +1,35 @@
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  width: 100%;
+
+  border-bottom: 2px solid #f0f1f0;
+
+}
+
+.container__header select {
+  border: none;
+}
+
+.container__content {
+  padding: 15px 20px;
+}
+
+.container__links{
+  display: flex;
+}
+.container__link {
+  display: block;
+  margin-right: 5px;
+  width: 20px;
+  color: #b4b9bd;
+}
+
+.container__link:hover {
+  transform: scale(1.2);
+}
+
+.container__link:focus {
+  color: black;
+}
