@@ -14,13 +14,6 @@ Has comments of code in Index html.
 - Javascript;
 - BEM;
 
-## Local deployment
-
-### Installing
-* Fork and clone this repository
-* Run `npm install` in your terminal
-* Run `npm start`
-
 ## Troubleshooting
 
 Any advise for common problems or issues.
