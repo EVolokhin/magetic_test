@@ -5,7 +5,7 @@ WEB page with responsive design
 Divided for BEM blocks, Designed for Grid positions.
 Has comments of code in Index html.
 
-- [DEMO LINK]()
+- [DEMO LINK](https://evolokhin.github.io/magetic_test/.)
 
 ## Description
 - HTML5 / CSS3;
